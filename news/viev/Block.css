@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h3{
+  font-size: 24pt;
+  letter-spacing: 2pt;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+header{
+  display: flex;
+  /* padding: 1.3rem 0 1.3rem 9rem; */
+  padding: 2% 0 2% 10.7vw;
+  gap: 1rem;
+  span{
+    align-content: center;
+  }
+}
+.info{
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  /* padding: 0 7.5rem; */
+  padding: 0 10vw 1.9vw 10.5vw;;
+  gap: 2rem;
+  width: 100%;
+  height: 69.5vh;
+  >*{
+    z-index: 1;
+  }
+}
+.info img{
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+}
+.content{
+  padding: 0 9.4rem;
+  h2{
+  padding: 2.7rem 0;
+  }
+}
+.conteiner{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(540px,1fr));
+  row-gap: 8.18vh;
+  column-gap: 1.8rem;
+}
+.box{
+  width: 90%;
+  /* height: 36vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  p{
+    line-height: 150%;
+  }
+  button{
+    width: fit-content;
+  }
+}
+.info-box{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.data{
+  border-radius: 1rem;
+  width: fit-content;
+  padding: .1rem .5rem;
+}
+.about{
+  padding: 0.7rem 2.2rem;
+  border-radius: 3rem;
+  border: .1rem solid var(--dop);
+}
+
+.line{
+  display: flex;
+  gap: .6rem;
+  width: 100%;
+  justify-content: end;
+  align-items: end;
+  padding: 12vh 0 8.18vh 0;
+  button, a{
+    color: var(--dop);
+    font-weight: bold;
+    text-align: center;
+    align-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    border: 3px solid var(--main);
+    border-radius: 50%;
+  }
+}
+.line p{
+  text-align: end;
+}
+.line .button_last{
+  width: 5rem;
+  border-radius: 4rem;
+}
+
+footer{
+  padding: 7vh 0;
+}
