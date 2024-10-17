@@ -1,7 +1,7 @@
 <?php 
 require_once '../config_bd.inc.php';
 
-  $host = BD_NOST;
+  $host = BD_HOST;
   $user = BD_USER;
   $password = BD_PASSWORD;
   $base = BD_BASE;
