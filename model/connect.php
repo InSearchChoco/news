@@ -1,10 +1,10 @@
 <?php 
 require_once '../config_bd.inc.php';
 
-  $host = bd_host;
-  $user = bd_user;
-  $password = bd_password;
-  $base = bd_base;
+  $host = BD_NOST;
+  $user = BD_USER;
+  $password = BD_PASSWORD;
+  $base = BD_BASE;
   $bd = new mysqli($host, $user, $password, $base);
     if($bd == false){
       echo 'Ошибка подключения';

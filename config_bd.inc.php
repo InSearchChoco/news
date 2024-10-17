@@ -1,6 +1,6 @@
 <?php
-  define('bd_host', 'localhost');
-  define('bd_user', 'Users');
-  define('bd_password', '');
-  define('bd_base', 'new');
+  define('BD_NOST', 'localhost');
+  define('BD_USER', 'Users');
+  define('BD_PASSWORD', '');
+  define('BD_BASE', 'new');
 ?>
