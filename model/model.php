@@ -70,7 +70,6 @@ class Model
   //Получение новости по id
   public function get_new_buyId($id)
   {
-    // получение get параметров
     $this->id = (int) $id;
     
     $this->id = mysqli_real_escape_string($this->bd, $this->id);
